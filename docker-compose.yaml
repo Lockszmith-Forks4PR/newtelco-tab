@@ -1,0 +1,6 @@
+services:
+  newtelco-tab:
+    build:
+      context: .
+    ports:
+    - 33300:3000
